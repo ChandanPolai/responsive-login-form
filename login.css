@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: aqua;
+}
+
+::selection{
+    background-color: rgb(18, 60, 60);
+}
+
+.container{
+    background-color: aqua;
+    max-width: 440px;
+    margin: 170px auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.container .warpper{
+   width: 100%;
+   border-radius: 10px 10px 0 0 ;
+}
+
+.container form{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.container h1{
+    text-align: center;
+    color: #fff;
+    background-color: rgba(22, 100, 100, 0.437);
+    line-height: 80px;
+    text-transform: capitalize;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.container .row{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    position: relative;
+}
+
+.container input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+
+.container input:focus{
+    border: 1px solid black;
+    transition: all 0.2s ease;
+}
+
+.container i{
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(8, 83, 83, 0.437);
+    border-radius: 5px 0 0 5px;
+}
+
+.container .pass{
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.container .login input{
+    margin-top: 15px;
+    text-transform: capitalize;
+    padding-left: 3px;
+    cursor: pointer;
+    background-color:rgba(22, 100, 100, 0.437) ;
+    color: #fff;
+    font-weight: 600;
+}
+
+.container .login input:hover{
+    background-color: rgb(24, 128, 128);
+    border: 1px solid white;
+    outline: 4px solid rgb(24, 128, 128); 
+    transition: all 0.2s ease;
+}
+
+form .member{
+    text-transform: capitalize;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+form .member a{
+    text-decoration: none;
+}
+
+form .member a:hover{
+    text-decoration: underline;
+}
